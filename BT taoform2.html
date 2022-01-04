@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Đăng kí học viên</title>
+    <style>
+        body {
+            background: khaki;
+            font-family: "Times New Roman", Times, serif;
+            color: darkblue;
+            font-size: 100%;
+            text-align: left;
+        }
+        h1 {
+            background: aquamarine;
+        color: blue;
+
+
+        }
+
+    </style>
+</head>
+<body>
+<h1>ĐĂNG KÍ HỌC VIÊN</h1> <br>
+<form method="get">
+    <p>Họ và tên  &nbsp;&nbsp;
+    <input name="full name" type="text"></p>
+    <p>Ngày sinh &nbsp;
+    <input name="birthday" type="text"></p>
+    <p> Giới tính &nbsp;&nbsp;
+    <label> <input type="radio" name="gender" value="male">Nam</label> <label> <input type="radio" name="gender" value="female">Nữ</label></p>
+    <p>Địa chỉ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <textarea name="address" cols="30" rows="4"></textarea></p>
+<p>Lớp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <select name="grade" >
+        <option value="choose">-Chọn lớp-</option>
+        <option value="10">Lớp 10</option>
+        <option value="11">Lớp 11</option>
+        <option value="12">Lớp 12</option>
+    </select>
+</p>
+    <p>Email &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text"></p>
+    <p>Điện thoại&nbsp;&nbsp;
+        <input type="text"></p>
+    <input type="submit" value="Đăng kí"/> <input type="reset" value="Nhập lại" >
+
+</form>
+</body>
+</html>
